@@ -20,3 +20,15 @@ Tab:AddDiscordInvite({
 
 local Paragraph = Tab:AddParagraph({"Доп.Информация", "Please subscribe to my telegram channel"})
 
+local Tab = Window:MakeTab({"Function", "rbxassetid://"})
+
+local Section = Tab:AddSection({"Manual"})
+
+local Button = Tab:AddButton({
+  Name = "Auto Parry",
+  Callback = function()
+
+
+    Print("🥶") 
+  end
+})
