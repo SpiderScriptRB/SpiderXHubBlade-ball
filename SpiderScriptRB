@@ -1,0 +1,22 @@
+
+local Window = Library:MakeWindow({
+    Title = "SpiderXHub🕷️| Blade ball",
+    SaveFolder = "Thanks AstroXTeam"
+});Window:AddMinimizeButton({
+    Button = {Image = "rbxassetid://110696380671893"},
+    Corner = {CornerRadius = UDim.new(0, 10)}
+})
+
+
+local Tab = Window:MakeTab({"Tab", "rbxassetid://"})
+
+local Section = Tab:AddSection({"Information"})
+
+Tab:AddDiscordInvite({
+    Name = "SpiderScriptRB | Community",
+    Logo = "rbxassetid://112914630697532",
+    Invite = "t.me/SpiderScriptRB", 
+})
+
+local Paragraph = Tab:AddParagraph({"Доп.Информация", "Please subscribe to my telegram channel"})
+
